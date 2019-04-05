@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+      <title>BdB | Compras por Internet</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+      <!-- [ META ] -->
+      <meta charset="utf-8">
+      <!-- [ META END ] -->
+      <!-- [ CSS ] -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/hover-min.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/animate.min.css">
+      <!-- [ END CSS ] -->
+      <!-- [ JS ] -->
+      <script src="assets/js/jquery-3.3.1.slim.min.js" charset="utf-8"></script>
+      <script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
+      <script src="assets/js/main.js" charset="utf-8"></script>
+      <!-- [ END JS ] -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+  <!-- [ NAV ] -->
+  <section class="nav">
+     <div class="container-fluid">
+       <div class="row">
+        <div class="col-lg-4 align-self-center">
+          <div class="logo">
+            <a href="#header"><img src="assets/images/logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="text_nav col-lg-8 align-self-center">
+          <ul>
+            <li><a href="#comprar">¿Cómo comprar con tu Tarjeta?</a></li>
+            <li><a href="#cambiar">¿Cómo cambiar el tope de tu Tarjeta?</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+     </div>
+  </section>
+  <section class="nav_mobile">
+    <div class="row">
+      <div class="col-10 align-self-center">
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col text-right align-self-center">
+        <span style="font-size:23px;" onclick="openNav()"><img src="assets/images/nav_icon_03.png" alt="" class="img-fluid"></span>
+      </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <div class="logo_menu align-self-center">
+          <img src="assets/images/logo.png" alt="" class="img-fluid">
+      </div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#comprar" onclick="closeNav()">¿Cómo comprar con tu Tarjeta?</a>
+      <a href="#cambiar" onclick="closeNav()">¿Cómo cambiar el tope de tu Tarjeta?</a>
+      <ul class="follow">  
+              <p>SÍGUENOS</p>
+              <li><a href="https://twitter.com/bancodebogota?lang=es" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/BancodeBogota/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.youtube.com/user/BancodeBogota" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/bancodebogota/?hl=es-la" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+      </ul>
+    </div>
+  </section>
+  <!-- [ END NAV ] -->
+
+  <!--[ HEADER ] -->
+  <section class="header" id="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card_bdb">
+            <div class="row">
+              <div class="col-5 col-xs-9 align-self-end">
+                <div class="with_our">
+                  Con nuestras
+                </div>
+              </div>
+              <div class="col">
+                <img src="assets/images/tarjetas.png" alt="" class="img-fluid tarjetas">
+              </div>
+            </div>
+            <div class="txt_big">
+              Tarjetas Débito
+            </div>
+            <div class="with_our ">
+              ya puedes comprar por internet.
+            </div>
+            <div class="btn_card">
+              <ul>
+                 <li><a href="#cambiar" class="hvr-back-pulse hvr-icon-wobble-horizontal">¿Cómo comprar con tu Tarjeta?<i class="hvr-icon fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                <li><a href="#comprar"  class="hvr-back-pulse hvr-icon-wobble-horizontal">¿Cómo cambiar el tope de tu Tarjeta?<i class="hvr-icon fa fa-chevron-right" aria-hidden="true"></i></a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="pay_bdb">
+            <div class="conten-img">
+              <img src="assets/images/Tarjeta41.png" alt="">
+            </div>
+            <img src="assets/images/portatil.png" alt="" class="img-fluid">
+            <div class="person">
+              <img src="assets/images/personaje.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="header_mobile" id="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 align-self-center">
+          <div class="pay_bdb">
+            <div class="conten-img">
+              <img src="assets/images/Tarjeta41.png" alt="" class="img-fluid">
+            </div>
+            <div class="portatil">
+              <img src="assets/images/portatil.png" alt="">
+            </div>
+            <div class="person">
+              <img src="assets/images/personaje.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card_bdb">
+            <div class="row">
+              <div class="col-8 align-self-end">
+                <div class="with_our">
+                  Con nuestras
+                </div>
+              </div>
+              <div class="col">
+                <img src="assets/images/tarjetas.png" alt="" class="tarjetas">
+              </div>
+            </div>
+            <div class="txt_big">
+              Tarjetas Débito
+            </div>
+            <div class="with_our ">
+              ya puedes comprar por internet.
+            </div>
+            <div class="btn_card">
+              <ul>
+                <li><a href="#cambiar" class="hvr-back-pulse hvr-icon-wobble-horizontal">¿Cómo comprar con tu Tarjeta?<i class="hvr-icon fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                <li><a href="#comprar"  class="hvr-back-pulse hvr-icon-wobble-horizontal">¿Cómo cambiar el tope de tu Tarjeta?<i class="hvr-icon fa fa-chevron-right" aria-hidden="true"></i></a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="arrow">
+    <a href="#comprar">
+      <img src="assets/images/flecha_03.png" alt="" class="animated bounce arrow_icon">
+    </a>
+  </section>
+  <!-- [ END HEADER ] -->
+
+  <!-- [ LEARN VIDEO ] -->
+  <section class="learn">
+    <div class="container">
+      <div class="row">
+        <div class="col title_learn">
+          <a name="comprar" id="comprar">
+              <h1>Aprende a comprar por internet con tu Tarjeta Débito</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm col-xl-8">
+          <div class="video">
+            <iframe width="100%" height="515" src="https://www.youtube.com/embed/xzr5IEs3WI4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-sm col-xl-4">
+          <div class="card_video">
+            <img src="assets/images/code_seguridad_03.png" class="img-fluid" alt="">
+            <p>¡OJO! Antes de empezar verifica que tu Tarjeta Débito tenga el código de seguridad, si no lo tiene puedes pedir una nueva Tarjeta en cualquiera de nuestras oficinas sin ningún costo adicional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- [ END LEARN VIDEO ] -->
+
+  <!-- [ BENEFITS ] -->
+  <section class="benefits">
+    <div class="container">
+      <div class="title_benefits">
+        <div class="row">
+          <div class="col">
+              <h2>Beneficios de comprar por internet con<br> tu Tarjeta Débito Visa Banco de Bogotá</h2>
+          </div>
+        </div>
+      </div>
+      <div class="list_benefits">
+        <div class="row">
+          <div class="col">
+            <i><img src="assets/images/icon_03.png" alt="" class="img-fluid"></i><span>No pagas intereses</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <i><img src="assets/images/icon_06.png" alt="" class="img-fluid"></i><span>Evitas desplazamientos, filas y congestiones.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <i><img src="assets/images/icon_08.png" alt="" class="img-fluid"></i><span>Tienes mayor control sobre tus compras al recibir alertas a tu celular.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <i><img src="assets/images/icon_10.png" alt="" class="img-fluid"></i><span>Puedes hacer compras hasta de $1,000.000 ó 10 transacciones por día, conoce cómo modificar los topes aquí.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <i><img src="assets/images/icon_transparent.png" alt="" class="img-fluid"></i><span>Comprar productos en todo el mundo a solo un clic.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- [ END BENEFITS ] -->
+
+  <!-- [ MAKE CARD ] -->
+  <section class="make">
+    <div class="container">
+      <div class="title_make">
+        <div class="row">
+          <div class="col">
+            <h2>¿Qué puedo hacer con mi tarjeta?</h2>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="row">
+          <div class="col-sm col-lg-3 images_make">
+            <img src="assets/images/pagar_09.png" alt="" class="img-fluid">
+            <br>
+            <span>Comprar música para el celular</span>
+          </div>
+          <div class="col-sm col-lg-3 images_make">
+            <img src="assets/images/pagar_06.png" alt="" class="img-fluid">
+            <br>
+            <span>Pagar pasajes de avión</span>
+          </div>
+          <div class="col-sm col-lg-3 images_make pop_corn">
+            <img src="assets/images/pagar_03.png" alt="" class="img-fluid">
+            <br>
+            <span>Ver películas y series por internet</span>
+          </div>
+          <div class="col-sm col-lg-3 images_make">
+            <img src="assets/images/pagar_12.png" alt="" class="img-fluid">
+            <br>
+            <span>Pagar sevicios de transporte</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- [ END MAKE CARD ] -->
+
+  <!-- [ SLIDER EXPLICATION ] -->
+  <section class="slide_explication">
+    <div class="container">
+      <div class="col title_learn">
+        <h1 id="cambiar">Cambia el tope de tu Tarjeta Débito en 8 sencillos pasos:</h1>
+      </div>
+      <div class="slider">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p>Ingresa a la zona transaccional del Banco de Bogotá. Recuerda tener tu Token a la mano.</p>
+              <img src="assets/images/slider_1_03.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <p>Ingresa a Servicios y Solicitudes.</p>
+              <img src="assets/images/slider_2_03.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <p>En la opción Seguridad, selecciona Cambiar Topes.</p>
+              <img src="assets/images/slider_3_03.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <p>Selecciona el número de cuenta en la que deseas modificar el tope disponible.</p>
+              <img src="assets/images/slider_4_03.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <p>Digita la clave de tu Token (si no lo tienes, puedes adquirirlo a través de app Token Móvil Banco de Bogotá). Para conocer más visita: <a href="https://www.bancodebogotá.com/actividad">www.bancodebogotá.com/actividad</a></p>
+              <img src="assets/images/slider_5_03.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <p>Selecciona la opción Compras Virtuales con Tarjeta Débito.</p>
+              <img src="assets/images/slider_6_03.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <p>En la parte superior te aparecerá un mensaje indicando las reglas de tu tope disponible. Si estás de acuerdo con el cambio selecciona Aceptar.</p>
+              <img src="assets/images/slider_7_03.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <p>Si el código de tu Token es correcto te aparecerá un mensaje indicando que el tope disponible se modificó correctamente.</p>
+              <img src="assets/images/slider_8_03.png" class="d-block" alt="...">
+            </div>
+          </div>
+          <span class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <i><img src="assets/images/arrow_01.png" alt="" class="img-fluid"></i>
+            <span class="sr-only">Previous</span>
+          </span>
+          <span class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <i><img src="assets/images/arrow_02.png" alt="" class="img-fluid"></i>
+            <span class="sr-only">Next</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- [ END SLIDER EXPLICATION ] -->
+
+
+  <!-- [ FOOTER ] -->
+  <section class="footer">
+    <!-- [ FOOTER CARDS ] -->
+    <section class="footer_cards">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="col title_footer">
+              <h1>Comprar por internet sin limitaciones,<br> es moverse por la gente</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- [ END FOOTER CARDS ] -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm col-xl-5 col-md-12">
+
+        </div>
+        <div class="col-sm col-xl-7 col-md-12">
+          <div class="">
+            <ul>
+              <li><a href="">Términos y condiciones</a></li>
+              <li><a href="https://www.bancodebogota.com/wps/portal/banco-de-bogota/bogota/productos/para-ti/tarjetas-de-credito">Productos y Servicios</a></li>
+              <li><a href="https://www.bancodebogota.com/wps/portal/banco-de-bogota/bogota/atencion-al-cliente/necesita-ayuda/servilineas">Contáctanos</a></li>
+              <li>
+                Social
+                <a href="https://twitter.com/bancodebogota?lang=es" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/BancodeBogota/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/user/BancodeBogota" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/bancodebogota/?hl=es-la" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- [ FOOTER ] -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  </script>
+  </body>
+</html>
